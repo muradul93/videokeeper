@@ -1,0 +1,33 @@
+/* ActivityLog.css */
+.activity-log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.activity-log-table th, .activity-log-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.activity-log-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.activity-log-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.activity-log-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.activity-log-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,18 @@
+/* AllVideos.css */
+.video-container {
+    margin: 20px 0;
+}
+
+.video-player {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+}
